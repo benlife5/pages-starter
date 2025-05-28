@@ -1,5 +1,5 @@
 {
-  "name": "pages-starter-react-locations",
+  "name": "pages-starter",
   "version": "0.0.0",
   "description": "An example repository to help users get started with React development on Yext Pages",
   "author": "sumo@yext.com",
@@ -30,15 +30,16 @@
     "@typescript-eslint/eslint-plugin": "^6.16.0",
     "@typescript-eslint/parser": "^6.16.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "@yext/pages": "1.2.4",
-    "@yext/pages-components": "^1.0.0-rc.1",
+    "@yext/pages": "^1.2.4",
+    "@yext/pages-components": "^1.1.6",
     "autoprefixer": "^10.4.8",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.31.7",
     "postcss": "^8.4.32",
     "prettier": "^3.1.1",
-    "tailwindcss": "^3.4.0",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.3.3",
-    "vite": "^5.1.3"
+    "vite": "^5.1.3",
+    "tailwindcss-scoped-preflight": "^3.5.2"
   }
 }
