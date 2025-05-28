@@ -3,7 +3,7 @@ export const getPath = () => {
 };
 
 const Basic = () => {
-  return <div>Basic</div>;
+  return <div>Basic 789</div>;
 };
 
 export default Basic;
