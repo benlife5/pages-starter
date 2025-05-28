@@ -3,7 +3,7 @@ export const getPath = () => {
 };
 
 const Basic = () => {
-  return <div>Basic</div>;
+  return <div>Basic - Other Branch</div>;
 };
 
 export default Basic;
