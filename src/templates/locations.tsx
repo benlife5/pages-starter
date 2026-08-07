@@ -61,7 +61,7 @@ export const getHeadConfig: GetHeadConfig = ({ document }): HeadConfig => {
 };
 
 export const getRedirects: GetRedirects = ({ document }) => {
-  return ["template-redirect/" + document.name];
+  return ["template-redirect/" + document.id];
 };
 
 /*
