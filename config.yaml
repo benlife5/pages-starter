@@ -10,5 +10,9 @@ livePreviewConfiguration:
   setupCommand: ":"
 staticRoutes:
   - from: /config-yaml-static
-    to: /7751-bird-rd
+    to: /locations/7751-bird-rd
     status: 301
+dynamicRoutes:
+  - from: /origin/:category/dynamic
+    to: /destination/dynamic/:category
+    status: 302
