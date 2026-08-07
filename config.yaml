@@ -8,3 +8,7 @@ buildConfiguration:
       - .npmrc
 livePreviewConfiguration:
   setupCommand: ":"
+staticRoutes:
+  - from: /config-yaml-static
+    to: /7751-bird-rd
+    status: 301
